@@ -1,0 +1,17 @@
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\UnitTestProject1.dll
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\WebDriver.dll
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\bin\Debug\WebDriver.xml
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Kate\source\repos\UnitTestProject1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
