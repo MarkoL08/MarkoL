@@ -17,7 +17,7 @@ namespace UnitTestProject1
             driver.Navigate().GoToUrl("https://www.bbc.com");
             IWebElement element = driver.FindElement(By.XPath("//a[@href = 'https://www.bbc.com/news']"));
             element.Click();
-            /* List<string>tempList = new List<string>();
+            List<string>tempList = new List<string>();
              List<string> ERList = new List<string>()
              {
 
@@ -32,12 +32,12 @@ namespace UnitTestProject1
              for( var i=0; i<tempList.Count; i++)
              {
                  Assert.AreEqual(tempList[i], ERList[i]);
-             }*/
-            //IWebElement elHeadArticle = driver.FindElement(By.XPath("//a[@class='gs-c-section-link gs-c-section-link--truncate nw-c-section-link nw-o-link nw-o-link--no-visited-state']"));            
+             }
+                        
             IWebElement elHeadArticle = driver.FindElement(By.XPath("//*[@data-entityid='container-top-stories#1']/div/ul/li[2]/a"));
 
 
-            string searchText = elHeadArticle.Text; // elHeadArticle.GetAttribute("aria-label");
+            string searchText = elHeadArticle.Text; 
 
 
             IWebElement searchFild = driver.FindElement(By.XPath("//*[@id='orb-search-q']"));
@@ -48,10 +48,10 @@ namespace UnitTestProject1
             string expectedArticle = "US & Canada";
 
             IWebElement article1 = driver.FindElement(By.XPath("//h1[@itemprop='headline']"));
-            //*[@id="search-content"]/ol/li[1]/article/div/h1/a
+            
 
 
-            //IWebElement actualLink = article1.FindElement(By.XPath("//a[@href='http://www.bbc.co.uk/news/world/us_and_canada/']"));
+            
             IWebElement actualLink = article1.FindElement(By.XPath("//*[@data-result-number='1']/article/div/h1/a "));
             string s = actualLink.Text;
             
@@ -59,14 +59,15 @@ namespace UnitTestProject1
 
 
 
-            //Assert.AreEqual(expectedArticle, s);
+            Assert.AreEqual(expectedArticle, s);
             driver.Quit();
 
 
         
 
             
- //Assert.AreEqual("text",element.Text()); 
+ 
+            
                    }
 
         [TestMethod]
